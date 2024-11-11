@@ -1,4 +1,4 @@
-Utilizacao do NEAT-Python e Redes neurais para treinamento de uma IA capaz de finalizar a fase Yoshi Island 2 do jogo Super Mario World (SNES).
+Implementacao do NEAT-Python e Redes neurais para treinamento de uma IA capaz de finalizar a fase Yoshi Island 2 do jogo Super Mario World (SNES).
 
 Arquivos:
   - config-feedforward: Configuracoes do algoritmo genetico para treinamento em *train.py*
