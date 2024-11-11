@@ -1,16 +1,18 @@
-import retro
-import numpy as np
-import neat
-import cv2
-import pickle
-import time
+# Importando bibliotecas necessárias
+import retro  # Biblioteca gym-retro
+import numpy as np  # Biblioteca para manipulação de arrays e operações matemáticas
+import neat  # Biblioteca para aprendizado evolutivo e NEAT
+import cv2  # Biblioteca de processamento de imagens e vídeo
+import pickle  # Biblioteca para serialização de objetos
+import time  # Biblioteca para manipulação de tempo
+
 
 
 # Criar o ambiente
 env = retro.make(game='SuperMarioWorld-Snes', state='YoshiIsland2', players=1)
 
 # Carregar o arquivo 'winner.pkl'
-with open('winner.pkl', 'rb') as f:
+with open('winner/winner.pkl', 'rb') as f:
     winner = pickle.load(f)
 
 # Criar a rede neural a partir do melhor genoma
@@ -65,7 +67,7 @@ def play_game():
         # Exibir o score atual
         print("Score: ", fitness_current)
 
-    print("Fim do jogo!")
+    print("Fase completada!")
     env.close()
 
 # Chamar a função para jogar o jogo com o melhor genoma encontrado
