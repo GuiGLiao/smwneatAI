@@ -2,6 +2,7 @@ Implementação do NEAT-Python e Redes neurais para treinamento de uma IA capaz 
 
 Arquivos:
   - config-feedforward: Configurações do algoritmo genético para treinamento em *train.py*
+  - RandomAgent.py: Executa um agente aletório sem treinamento
   - train.py: Uso do NEAT-Python e Redes Neurais para treinamento do agente
   - play.py: Programa para execução do arquivo que contêm o melhor agente
   - winner.pkl: Arquivo serializado do melhor agente
