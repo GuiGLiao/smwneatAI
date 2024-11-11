@@ -29,7 +29,7 @@ Bibliotecas usadas no treinamento em si:
   - import time  # Biblioteca para manipulação de tempo
   - import os # Biblioteca para funcionalidades do sistema operacional
     
-Instalacao:
+Instalação:
 
   - OpenAI retro: pip3 install gym-retro
   - numpy: pip install numpy
