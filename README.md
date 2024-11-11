@@ -17,7 +17,6 @@ Pastas:
     - bestIndividual.png: Mensagem de melhor agente encontrado e exportado para o *winner.pkl*
   - marioVideos: Vídeos do *train.py* e *play.py*
   - neat-checkpoints: Registro dos pontos de parada de cada geração, até a geracao 28. (Melhor agente encontrado do neat-checkpoint-26 para o 27)
-  - checkpoints_dir: Registro das gerações seguintes ate estagnação e extinção de espécies (checkpoints 29-110)
 
 Bibliotecas usadas no treinamento em si:
   - import retro  # Biblioteca gym-retro
